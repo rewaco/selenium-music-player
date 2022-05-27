@@ -21,7 +21,7 @@ browser.get("https://www.google.com/")
 enter_date = browser.find_element_by_css_selector(".gLFyf.gsfi")
 
 
-enter_date.send_keys(music_name + "" + artist_name + " " +"site:{}.com".format(artist_name))
+enter_date.send_keys(music_name + "" + artist_name + " " +"site:{}.com".format(site_name))
 time.sleep(2)
 
 enter_date.send_keys(Keys.ENTER)
